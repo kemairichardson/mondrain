@@ -1,0 +1,61 @@
+@media screen and (max-width:500px) {
+	.flex-container {
+	display: block;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+img {
+	content:url(images/mondrain.png);
+	max-width:275px;
+	overflow:hidden;
+	
+	
+}
+
+.center-horizontal {
+	display: flex;
+	align-items: center;	
+}
+
+.center-vertical {
+	display: flex;
+	justify-content: center;
+	height: inherit;
+}
+
+.wide-col {
+	height: 40vh;
+	width: 100vw;
+	display:block;
+}
+
+.narrow-col {
+	height: 80vh;
+	width: 100vw;
+	display: block;
+}
+
+.blue {
+	background-color: #0D11A8;
+}
+
+.red {
+	background-color: #F50F0F;
+	height: 55%;
+	width:100%;
+}
+
+.yellow {
+	background-color: #FAE317;
+	height: 55%;
+	width:100%;
+}
+
+
+}
+}
